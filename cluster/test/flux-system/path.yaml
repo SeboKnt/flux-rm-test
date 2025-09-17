@@ -5,12 +5,12 @@ metadata:
   name: cluster
   namespace: flux-system
 spec:
-  interval: 15m0s
+  interval: 1m
   path: ./cluster/test
   prune: true
   sourceRef:
     kind: GitRepository
     name: github-repo
   timeout: 3m0s
-  retryInterval: 10m0s
+  retryInterval: 5m0s
   wait: true
