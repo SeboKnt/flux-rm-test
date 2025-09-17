@@ -1,0 +1,12 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: github-repo
+  namespace: flux-system
+spec:
+  interval: 15m0s
+  url: https://github.com/SeboKnt/flux-rm-test.git
+  ref:
+    branch: main
+  timeout: 2m
