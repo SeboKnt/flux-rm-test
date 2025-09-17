@@ -6,4 +6,5 @@ resources:
   - flux-system/path.yaml
   - flux-system/namespace.yaml
   - flux-system/quota.yaml
+  - deployments-that-does-not-exist.yaml
   - apps.yaml
