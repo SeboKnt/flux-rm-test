@@ -5,5 +5,5 @@ resources:
   - flux-system/helm.yaml
   - flux-system/path.yaml
   - flux-system/namespace.yaml
-  - flux-system/quota.yaml
+  #- flux-system/quota.yaml
   - apps.yaml
