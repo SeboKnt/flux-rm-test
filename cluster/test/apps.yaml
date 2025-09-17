@@ -19,7 +19,7 @@ spec:
         metadata:
           name: nginx-test
         spec:
-          replicas: 5
+          replicas: 1000
       target:
         kind: Deployment
         name: nginx-test
